@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500;600;700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p,
+li {
+    font-size: 20px;
+    margin: 20px;
+}
+
+main {
+    padding: 0 10%;
+}
+
+.tagline {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.list_link {
+    font-size: 25px;
+    font-weight: 600;
+    color: #101010;
+    text-decoration: none;
+}
+
+.header,
+.table_of_content,
+.article {
+    /* border-bottom: 1px solid grey; */
+}
+
+.header {
+    text-align: center;
+    padding: 338px 0;
+    background-image: url("laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.table_of_content {
+    padding-bottom: 20px;
+}
+
+.table_list {
+    list-style: none;
+}
+
+.article_image {
+    text-align: center;
+}
+
+
+/* style for animation */
+.table_of_content_title{
+    opacity: 0;
+
+}
+.table_of_content_title.animate__animated{
+    opacity: 1;
+}
+#intro{
+    opacity: 0;
+}
+#intro.animate__animated{
+    opacity: 1;
+}
+#history{
+    opacity: 0;
+}
+#history.animate__animated{
+    opacity: 1;
+}
+#features{
+    opacity: 0;
+}
+#features.animate__animated{
+    opacity: 1;
+}
+#para{
+    opacity: 0;
+}
+#para.animate__animated{
+    opacity: 1;
+}
+#article{
+    opacity: 0;
+}
+#article.animate__animated{
+    opacity: 1;
+}
+#article_image{
+    opacity: 0;
+}
+#article_image.animate__animated{
+    opacity: 1;
+}
+#ul{
+    opacity: 0;
+}
+#ul.animate__animated{
+    opacity: 1;
+}
+#ol{
+    opacity: 0;
+}
+#ol.animate__animated{
+    opacity: 1;
+}
+#list_link_1{
+    opacity: 0;
+}
+#list_link_1.animate__animated{
+    opacity: 1;
+}
+#list_link_2{
+    opacity: 0;
+}
+#list_link_2.animate__animated{
+    opacity: 1;
+}
+#list_link_3{
+    opacity: 0;
+}
+#list_link_3.animate__animated{
+    opacity: 1;
+}
+
+.list_link_2{
+    animation-delay: 0.15s;
+}
+.list_link_3{
+    animation-delay: 0.3s;
+}
